@@ -1,0 +1,182 @@
+body {
+  position: relative;
+  font-family: "Lato", sans-serif;
+  font-size: 1rem;
+  color: #fff;
+  line-height: 150%; }
+
+img {
+  max-width: 100%; }
+
+a {
+  text-decoration: none;
+  color: #16a085;
+  transition: linear 0.1s;
+  outline: none; }
+  a:visited {
+    color: #16a085;
+    text-decoration: none;
+    outline: none; }
+  a:hover, a:active {
+    color: #44b39d;
+    text-decoration: none;
+    outline: none; }
+
+h3 {
+  font-weight: bold; }
+
+#stage {
+  background: url("../images/class.jpg") center center no-repeat;
+  background-size: cover;
+  color: white;
+  height: 100%;
+  width: 100%;
+  padding: 16rem 0; }
+
+#stage-caption {
+  font-size: 1.4rem;
+  font-weight: 200;
+  max-width: 60rem;
+  margin: 0 auto;
+  text-align: center;
+  background: rgba(59, 59, 59, 0.2);
+  padding: 2rem; }
+
+#stage-caption h1 {
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase; }
+
+#notices {
+  background: url("../images/notice.png") top right no-repeat;
+  padding: 5rem 0 0; }
+  #notices a {
+    font-size: 1.4rem;
+    padding: 0.4rem 0;
+    display: inline-block;
+    align-items: center; }
+
+#timetable {
+  padding: 5rem 0 0; }
+
+/* OPTICAL COMMUNICATION */
+#digital-image-processing, #microwave-engineering, #computer-network, #control-lab, #microwave-lab, #contact {
+  padding: 5rem 0 0;
+  background-color: #282828; }
+  #digital-image-processing p, #microwave-engineering p, #computer-network p, #control-lab p, #microwave-lab p, #contact p {
+    padding-bottom: 2rem; }
+
+/* OPTICAL COMMUNICATION */
+#optical-communication, #low-power-vlsi, #fuzzy-logic, #dip-lab, #optical-lab, #ebooks {
+  padding: 5rem 0 0;
+  color: #282828; }
+  #optical-communication .title, #optical-communication p, #low-power-vlsi .title, #low-power-vlsi p, #fuzzy-logic .title, #fuzzy-logic p, #dip-lab .title, #dip-lab p, #optical-lab .title, #optical-lab p, #ebooks .title, #ebooks p {
+    color: #282828; }
+  #optical-communication p, #low-power-vlsi p, #fuzzy-logic p, #dip-lab p, #optical-lab p, #ebooks p {
+    padding-bottom: 2rem; }
+
+#labs {
+  background-color: #282828;
+  padding: 5rem 0 0;
+  padding-bottom: 3rem; }
+
+#main-footer {
+  background-color: #1c1c1c;
+  padding: 3rem 0 1rem; }
+  #main-footer ul li {
+    display: inline-block;
+    padding: 1.2rem;
+    font-size: 2rem; }
+
+/* NAVBAR STYLING */
+.navbar {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  display: block; }
+
+.navbar-nav .nav-link {
+  padding-bottom: 0.25rem; }
+
+.navbar-nav .nav-item + .nav-item {
+  margin-left: 2.5rem;
+  text-transform: uppercase; }
+
+.navbar-dark .navbar-brand, .navbar-dark .navbar-toggler {
+  color: #16a085; }
+
+.title {
+  margin-bottom: 2rem; }
+
+/*NOTICES SECTION */
+.notification {
+  margin-bottom: 2.5rem; }
+  .notification:last-child {
+    margin-bottom: none; }
+
+.notice {
+  margin-bottom: 1rem;
+  color: #d35400; }
+
+.notification a {
+  text-decoration: none; }
+  .notification a:visited {
+    text-decoration: none;
+    color: #44b39d; }
+  .notification a:hover, .notification a:active {
+    color: #44b39d; }
+
+/* MEDIA QUERY */
+@media screen and (max-width: 61.9375rem) {
+  .navbar-nav .nav-item + .nav-item {
+    margin-left: 0; }
+
+  .notice {
+    padding-top: 1rem; }
+
+  #main-footer ul li {
+    padding: 1rem; } }
+@media screen and (max-width: 48rem) {
+  .title, .display-3, .display-4 {
+    font-size: 3rem; } }
+@media screen and (max-width: 30rem) {
+  .display-3 {
+    font-size: 2.5rem; }
+
+  .display-4 {
+    font-size: 2rem; }
+
+  #main-footer ul li {
+    padding: 1rem; } }
+@media screen and (max-width: 22.5rem) {
+  #stage {
+    padding: 9rem 0; }
+
+  .lead, .blockquote {
+    font-size: 1rem; }
+
+  section h3 {
+    font-size: 1.5rem; }
+
+  #notices a {
+    font-size: 1.15rem; }
+
+  .display-3 {
+    font-size: 2rem; }
+
+  .display-4 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem; }
+
+  #main-footer ul li {
+    padding: 1rem 0.5rem; } }
+@media screen and (max-width: 20rem) {
+  section h3 {
+    font-size: 1.25rem; }
+
+  #notices a {
+    font-size: 1rem; }
+
+  #main-footer ul li {
+    padding: 1rem 0.3rem; } }
+
+/*# sourceMappingURL=app.css.map */

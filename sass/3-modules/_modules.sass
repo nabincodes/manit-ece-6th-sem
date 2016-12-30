@@ -1,0 +1,97 @@
+//MODULES STYLESHEETS
+
+
+/* NAVBAR STYLING */
+.navbar
+  padding-top: 1.5rem
+  padding-bottom: 1.5rem
+  display: block
+
+.navbar-nav .nav-link
+  padding-bottom: .25rem
+
+.navbar-nav .nav-item + .nav-item
+  margin-left: 2.5rem
+  text-transform: uppercase
+
+.navbar-dark .navbar-brand, .navbar-dark .navbar-toggler
+  color: $link-color
+
+.title
+  margin-bottom: $title-bottom-margin
+
+
+/*NOTICES SECTION */
+.notification
+  margin-bottom: $notification-bottom-margin
+
+  &:last-child
+    margin-bottom: none
+
+.notice
+  margin-bottom: 1rem
+  color: $notice-heading-color
+
+.notification a
+  text-decoration: none
+
+  &:visited
+    text-decoration: none
+    color: $link-hover
+  &:hover,
+  &:active
+    color: $link-hover
+
+/* MEDIA QUERY */
+@media screen and (max-width:61.9375rem)
+  .navbar-nav .nav-item + .nav-item
+    margin-left: 0
+
+
+  .notice
+    padding-top: 1rem
+
+  #main-footer ul li
+    padding: 1rem
+
+
+@media screen and (max-width:48rem)
+  .title,.display-3,.display-4
+    font-size: 3rem
+
+
+@media screen and (max-width:30rem)
+  .display-3
+    font-size: 2.5rem
+  .display-4
+    font-size: 2rem
+  #main-footer ul li
+    padding: 1rem
+
+@media screen and (max-width:22.5rem)
+  #stage
+    padding: 9rem 0
+  .lead,.blockquote
+    font-size: 1rem
+  section h3
+    font-size: 1.5rem
+
+  #notices a
+    font-size: 1.15rem
+
+  .display-3
+    font-size: 2rem
+  .display-4
+    font-size: 1.5rem
+    margin-bottom: 1rem
+
+  #main-footer ul li
+    padding: 1rem 0.5rem
+
+@media screen and (max-width:20rem)
+  section h3
+    font-size: 1.25rem
+  #notices a
+    font-size: 1rem
+  #main-footer ul li
+    padding: 1rem 0.3rem
